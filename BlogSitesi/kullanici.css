@@ -1,0 +1,124 @@
+﻿body {
+    background-color: #e1e1e1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.menubutton {
+    width: 150px;
+    height: 30px;
+    margin: 5px 20px 0 5px;
+    background-color: #fff;
+    color: #2a595c;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    list-style: none;
+}
+
+    .menubutton:hover {
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+.kutu {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+    .kutu .slider {
+        width: 1000px;
+        height: 300px;
+        float: left;
+        background-color: #2a595c;
+    }
+
+    .kutu .menu {
+        width: 1000px;
+        height: 40px;
+        float: left;
+        background-color: #2a595c;
+        margin: 5px 0 10px 0;
+    }
+
+    .kutu .govde {
+        width: 1000px;
+        height: auto;
+        float: left;
+        margin-top: 0;
+    }
+
+        .kutu .govde .govdesol {
+            width: 270px;
+            float: left;
+        }
+
+            .kutu .govde .govdesol .govdesolbaslik {
+                width: 100%;
+                height: 30px;
+                float: left;
+                background-color: #2a595c;
+                border: 1px solid #2a595c;
+                color: white;
+                line-height: 30px;
+            }
+
+            .kutu .govde .govdesol .govdesolicerik {
+                width: 100%;
+                float: left;
+                border: 1px dotted #2a595c;
+            }
+
+                .kutu .govde .govdesol .govdesolicerik a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                    .kutu .govde .govdesol .govdesolicerik a:hover {
+                        font-size: 20px;
+                        color: aquamarine;
+                        transition: ease-in;
+                    }
+
+        .kutu .govde .govdesag {
+            width: 700px;
+            height: auto;
+            float: right;
+            border: 1px dotted #2a595c;
+        }
+
+    .kutu .alt {
+        width: 100%;
+        height: 40px;
+        float: left;
+        margin: 15px 0 0 0;
+        padding: 10px 0 0 0;
+        line-height:40px;
+        background-color: #2a595c;
+    }
+
+.buttonGorsel {
+    background-color: #2a595c;
+    color: white;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    .buttonGorsel:hover {
+        background-color: rgba(74, 179, 186, 0.29);
+    }
+
+.textboxGorsel {
+    width: 150px;
+    height: 25px;
+    border: 1px dotted #2a595c;
+}

@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="BlogSitesi.admin.admin" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="admin.css" rel="stylesheet" />
+    <title>Blog Sitesi</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 27px;
+            
+            line-height: 27px;
+            color: #2a595c;
+            margin: 0 5px 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <div class="kutu">
+            <div class="slider"></div>
+
+            <div class="govde">
+                <div class="govdesol">
+                    <div class="govdesolbaslik" style="font-size: x-large; text-align: center"><strong>MENÜLER</strong></div>
+                    <div class="govdesolicerik">
+                        <div class="auto-style1"><a href="Duyurular.aspx"><strong>Duyurular</strong></a></div>
+                        <div class="auto-style1"><a href="Kategoriler.aspx"><strong>Kategoriler</strong></a></div>
+                        <div class="auto-style1"><a href="Makaleler.aspx"><strong>Makaleler</strong></a></div>
+                        <div class="auto-style1"><a href="Yorumlar.aspx"><strong>Yorumlar</strong></a></div>
+                        <div class="auto-style1"><a href="Mesajlar.aspx"><strong>Mesajlar</strong></a>&nbsp;&nbsp; </div>   
+                        <div class="auto-style1" style="float:right"><a href="quit.aspx"><strong>Çıkış</strong></a></div>
+
+                    </div>
+                </div>
+                <div class="govdesag">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <%--<div class="alt" style="text-align: center">
+
+                <strong></strong>
+            </div>--%>
+        </div>
+    </form>
+</body>
+</html>
